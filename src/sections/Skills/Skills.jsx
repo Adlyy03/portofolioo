@@ -71,13 +71,13 @@ export function Skills() {
       ref={containerRef}
       id="skills"
       className="relative py-20 sm:py-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-white/[0.06] overflow-hidden"
-      aria-label="Skills & Technologies"
+      aria-label="Bagian Keahlian & Teknologi"
     >
       <SectionHeader
         number="02"
-        label="Technical Competence"
-        title="Skills & Tooling"
-        description="A curated inventory of programming languages, frameworks, system environments, and software methodologies."
+        label="Kompetensi Teknis"
+        title="Keahlian & Teknologi"
+        description="Inventaris bahasa pemrograman, framework, sistem lingkungan, dan metodologi rekayasa perangkat lunak."
       />
 
       {/* Category Filter Tabs */}
@@ -91,7 +91,7 @@ export function Skills() {
               : 'bg-white/[0.03] text-neutral-400 border-white/[0.08] hover:text-white hover:border-white/20'
           }`}
         >
-          ALL CATEGORIES
+          SEMUA KATEGORI
         </button>
 
         {skillCategories.map((cat) => (

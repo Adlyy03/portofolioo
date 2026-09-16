@@ -64,13 +64,13 @@ export function Experience() {
       ref={containerRef}
       id="experience"
       className="relative py-20 sm:py-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-white/[0.06]"
-      aria-label="Experience & Technical Journey"
+      aria-label="Bagian Pengalaman & Perjalanan"
     >
       <SectionHeader
         number="04"
-        label="Trajectory & Background"
-        title="Experience & Journey"
-        description="Chronological progression through software engineering practice, practical internship, and computer science foundations."
+        label="Rekam Jejak"
+        title="Pengalaman & Perjalanan"
+        description="Rangkaian perjalanan profesional melalui praktik rekayasa perangkat lunak, program PKL, dan fondasi akademik."
       />
 
       <div className="relative mt-12 sm:mt-16 ml-2 sm:ml-4">
@@ -133,7 +133,7 @@ export function Experience() {
                 {/* Core competencies applied */}
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="text-[10px] font-mono uppercase tracking-widest text-neutral-500 mr-2">
-                    FOCUS:
+                    FOKUS:
                   </span>
                   {item.skillsApplied.map((skill) => (
                     <span

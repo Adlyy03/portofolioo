@@ -1,86 +1,85 @@
 /**
  * Portfolio Data Architecture
- * Centralized, realistic data file for Muhammad Adli Fajriyansyah
- * No fabricated achievements, companies, or broken links.
+ * Data portofolio terpusat dan realistis untuk Muhamad Adli Fajriyansyah
  */
 
 export const personalData = {
-  name: "Muhammad Adli Fajriyansyah",
+  name: "Muhamad Adli Fajriyansyah",
   shortName: "Adli",
   role: "Full-Stack Developer / Software Engineer",
-  status: "Available for select opportunities",
+  status: "Terbuka untuk peluang proyek",
   availabilityStatus: "active", // "active" | "busy"
   location: "Indonesia",
-  timezone: "UTC+07:00",
+  timezone: "WIB (UTC+07:00)",
   coordinates: "6.2088° S, 106.8456° E",
   cvUrl: "/CV.pdf",
-  tagline: "Building resilient, production-grade digital products with high-performance architectures.",
-  statement: "I build digital products that are designed to be used, not just demonstrated.",
+  tagline: "Membangun produk digital yang andal dan siap pakai dengan arsitektur performa tinggi.",
+  statement: "Saya membangun produk digital yang dirancang untuk digunakan, bukan sekadar didemonstrasikan.",
   aboutParagraphs: [
-    "I am a full-stack developer focused on building durable, high-performance web systems and fluid user interfaces. My work bridges the gap between scalable backend services and intentional frontend craftsmanship.",
-    "On the server side, I build maintainable APIs, structured database schemas, and dependable workflows with PHP, Laravel, and MySQL. On the client side, I create responsive, accessible, and fast web experiences using modern React, Tailwind CSS, and precision motion design.",
-    "I believe great software doesn't rely on superficial spectacle. Every layout, animation, and database query must serve a functional purpose: lower latency, improve user clarity, and withstand real-world use."
+    "Saya adalah seorang full-stack developer yang berfokus membangun sistem web yang tangguh, berkinerja tinggi, dan antarmuka pengguna yang nyaman. Fokus saya adalah menjembatani arsitektur layanan backend yang skalabel dengan ketelitian desain frontend yang fungsional.",
+    "Pada sisi server, saya merancang API yang terstruktur, skema database yang rapi, serta alur kerja yang andal menggunakan PHP, Laravel, dan MySQL. Pada sisi client, saya menciptakan pengalaman web yang responsif, aksesibel, dan cepat menggunakan React modern, Tailwind CSS, dan desain interaksi yang presisi.",
+    "Saya percaya bahwa perangkat lunak yang hebat tidak bergantung pada efek visual yang berlebihan. Setiap tata letak, animasi, dan kueri database harus memiliki tujuan nyata: mempercepat waktu muat, mempermudah pengguna, dan siap digunakan di dunia nyata."
   ],
   stats: [
-    { label: "Engineering Ethos", value: "Full-Stack" },
-    { label: "Core Foundation", value: "React • Laravel" },
-    { label: "Focus", value: "Performance & DX" },
-    { label: "Interface Standard", value: "Mobile-First" }
+    { label: "Fokus Rekayasa", value: "Full-Stack" },
+    { label: "Fondasi Utama", value: "React • Laravel" },
+    { label: "Prioritas", value: "Performa & DX" },
+    { label: "Standar Tampilan", value: "Mobile-First" }
   ]
 };
 
 export const navLinks = [
-  { name: "About", href: "#about", number: "01" },
-  { name: "Skills", href: "#skills", number: "02" },
-  { name: "Projects", href: "#projects", number: "03" },
-  { name: "Journey", href: "#experience", number: "04" },
-  { name: "Contact", href: "#contact", number: "05" }
+  { name: "Tentang", href: "#about", number: "01" },
+  { name: "Keahlian", href: "#skills", number: "02" },
+  { name: "Proyek", href: "#projects", number: "03" },
+  { name: "Perjalanan", href: "#experience", number: "04" },
+  { name: "Kontak", href: "#contact", number: "05" }
 ];
 
 export const skillCategories = [
   {
     id: "frontend",
-    title: "Frontend Engineering",
-    description: "Semantic structures, accessible interactions, and mobile-first design systems.",
+    title: "Rekayasa Frontend",
+    description: "Struktur semantik, interaksi aksesibel, dan sistem desain mobile-first.",
     skills: [
-      { name: "HTML5", detail: "Semantic Architecture" },
-      { name: "CSS3", detail: "Modern Layouts & Subgrid" },
+      { name: "HTML5", detail: "Arsitektur Semantik" },
+      { name: "CSS3", detail: "Layout Modern & Flex/Grid" },
       { name: "JavaScript", detail: "ES6+, Async, DOM" },
-      { name: "React", detail: "Component Lifecycle & Hooks" },
-      { name: "Tailwind CSS", detail: "Utility-First Design" }
+      { name: "React", detail: "Komponen & Hooks Lifecycle" },
+      { name: "Tailwind CSS", detail: "Desain Berbasis Utilitas" }
     ]
   },
   {
     id: "backend",
-    title: "Backend & Systems",
-    description: "Robust business logic, structured data access, and secure service integrations.",
+    title: "Backend & Sistem",
+    description: "Logika bisnis yang andal, struktur data terorganisir, dan integrasi API yang aman.",
     skills: [
-      { name: "PHP", detail: "Modern OOP & Type Safety" },
+      { name: "PHP", detail: "OOP Modern & Type Safety" },
       { name: "Laravel", detail: "MVC, Eloquent, Queues" },
-      { name: "MySQL", detail: "Schema Design & Indexing" },
-      { name: "REST API", detail: "Contract Design & JSON API" }
+      { name: "MySQL", detail: "Desain Skema & Indexing" },
+      { name: "REST API", detail: "Desain Kontrak & JSON API" }
     ]
   },
   {
     id: "tools",
-    title: "Tooling & DevOps",
-    description: "Reliable version control, containerized runtime, and developer ergonomics.",
+    title: "Tools & DevOps",
+    description: "Kontrol versi terstruktur, lingkungan kontainer, dan efisiensi alur kerja.",
     skills: [
-      { name: "Git", detail: "Branching & Collaboration" },
-      { name: "GitHub", detail: "Code Reviews & Actions" },
-      { name: "Docker", detail: "Containerized Environments" },
-      { name: "Linux", detail: "Bash & Server Management" }
+      { name: "Git", detail: "Branching & Kolaborasi" },
+      { name: "GitHub", detail: "Code Review & Repositori" },
+      { name: "Docker", detail: "Lingkungan Kontainer" },
+      { name: "Linux", detail: "Bash & Manajemen Server" }
     ]
   },
   {
     id: "practices",
-    title: "Design & Practices",
-    description: "User-centric methodology, responsiveness standards, and project execution.",
+    title: "Desain & Metodologi",
+    description: "Pendekatan ramah pengguna, standar responsif, dan eksekusi proyek terarah.",
     skills: [
-      { name: "UI/UX Architecture", detail: "Wireframing & Usability" },
-      { name: "Responsive Design", detail: "Mobile-First Viewports" },
-      { name: "Motion Design", detail: "GSAP & Spatial Timings" },
-      { name: "Project Management", detail: "Sprint Planning & Delivery" }
+      { name: "UI/UX Architecture", detail: "Wireframing & Kemudahan Pakai" },
+      { name: "Desain Responsif", detail: "Standar Tampilan Mobile-First" },
+      { name: "Motion Design", detail: "GSAP & Ritme Spasial" },
+      { name: "Manajemen Proyek", detail: "Perencanaan & Eksekusi Sprint" }
     ]
   }
 ];
@@ -89,93 +88,93 @@ export const projectsData = [
   {
     id: "01",
     title: "GLOSINDO Digital Guestbook",
-    subtitle: "Enterprise Front-Office Management System",
-    category: "Web Application",
+    subtitle: "Sistem Manajemen Resepsionis & Tamu Perusahaan",
+    category: "Aplikasi Web",
     year: "2024",
-    description: "A centralized visitor registration and verification system built for front-office reception logistics at PT Global Media Pratama Solusindo. Features real-time check-in, host notification routing, administrative audit logging, and automated reporting.",
+    description: "Sistem pencatatan dan verifikasi tamu digital terpusat yang dirancang untuk kebutuhan resepsionis di PT Global Media Pratama Solusindo. Dilengkapi fitur check-in real-time, notifikasi pihak terkait, pencatatan audit log, dan laporan rekap otomatis.",
     tags: ["Laravel", "PHP", "MySQL", "Tailwind CSS", "REST API"],
-    metrics: "Instant visitor logging with secure administrative audit records",
+    metrics: "Pencatatan tamu instan dengan catatan audit administrasi yang aman",
     imageAccent: "from-emerald-500/20 via-emerald-500/5 to-transparent",
     badgeColor: "emerald",
     githubUrl: "https://github.com/Adlyy03/glosindo",
     liveUrl: null,
     features: [
-      "Digital visitor check-in & host coordination",
-      "Administrative dashboard with search & filtering",
-      "Secure guest record logging and exportable reports",
-      "Mobile-optimized verification interface"
+      "Check-in tamu digital & koordinasi ke pihak yang dituju",
+      "Dashboard admin dengan pencarian dan filter cepat",
+      "Pencatatan log tamu yang aman serta ekspor laporan",
+      "Tampilan verifikasi yang dioptimalkan untuk mobile"
     ]
   },
   {
     id: "02",
     title: "Arradea Marketplace",
-    subtitle: "Multi-Vendor Digital Commerce Platform",
+    subtitle: "Platform E-Commerce Multi-Vendor",
     category: "E-Commerce",
     year: "2024",
-    description: "A comprehensive digital marketplace engineered to support dynamic merchant catalog indexing, inventory synchronization, category filtering, and a reliable multi-step checkout workflow.",
+    description: "Platform marketplace digital yang dirancang untuk mendukung katalog multi-toko pedagang, sinkronisasi inventaris produk, filter kategori yang dinamis, serta alur checkout yang aman dan stabil.",
     tags: ["React", "Laravel", "MySQL", "Tailwind CSS", "REST API"],
-    metrics: "Modular merchant management and responsive shopping workflows",
+    metrics: "Manajemen pedagang modular dan alur belanja yang responsif",
     imageAccent: "from-cyan-500/20 via-cyan-500/5 to-transparent",
     badgeColor: "cyan",
     githubUrl: "https://github.com/Adlyy03/arradea-laravel",
     liveUrl: null,
     features: [
-      "Dynamic catalog search with multi-parameter filtering",
-      "Shopping cart state persistence and order calculation",
-      "Merchant store dashboard for product and stock updates",
-      "Resilient RESTful API communication"
+      "Pencarian katalog dinamis dengan filter multi-parameter",
+      "Penyimpanan status keranjang belanja dan kalkulasi pesanan",
+      "Dashboard toko mitra untuk kelola produk dan stok barang",
+      "Komunikasi data yang stabil menggunakan RESTful API"
     ]
   },
   {
     id: "03",
     title: "Travel Story",
-    subtitle: "Interactive Editorial Travel Narrative",
-    category: "Interactive Narrative",
+    subtitle: "Platform Dokumentasi & Jurnal Perjalanan Interaktif",
+    category: "Kisah Interaktif",
     year: "2023",
-    description: "An editorial storytelling and journey documentation platform focused on high-contrast typography, interactive media presentation, and fluid timeline navigation across mobile and desktop devices.",
+    description: "Platform jurnal narasi dan dokumentasi perjalanan dengan tipografi kontras tinggi, presentasi media yang interaktif, serta navigasi linimasa yang mulus di perangkat mobile maupun desktop.",
     tags: ["React", "Tailwind CSS", "GSAP", "REST API"],
-    metrics: "Fluid media transitions with high-contrast editorial typography",
+    metrics: "Transisi konten yang mulus dengan tipografi editorial kontras tinggi",
     imageAccent: "from-amber-500/20 via-amber-500/5 to-transparent",
     badgeColor: "amber",
     githubUrl: "https://github.com/Adlyy03/travel-story-app",
     liveUrl: null,
     features: [
-      "Curated travel entries with dynamic geolocation tagging",
-      "High-contrast editorial typography and immersive galleries",
-      "Custom timeline transitions built with GSAP",
-      "Touch-optimized navigation for mobile readers"
+      "Dokumentasi catatan perjalanan dengan penandaan lokasi dinamis",
+      "Tipografi editorial berbobot dan galeri visual yang imersif",
+      "Animasi transisi linimasa khusus yang dibangun dengan GSAP",
+      "Navigasi ramah sentuhan untuk kenyamanan pembaca di ponsel"
     ]
   },
   {
     id: "04",
     title: "System Architecture & Dev Tooling",
-    subtitle: "Containerization & Automation Utilities",
-    category: "DevOps & Tooling",
+    subtitle: "Lingkungan Kontainer & Otomasi Sistem Pengembang",
+    category: "DevOps & Tools",
     year: "2023",
-    description: "Standardized developer environment configurations, Docker multi-stage compose pipelines, and Linux automation scripts created to guarantee environment parity across local and server instances.",
+    description: "Standardisasi konfigurasi lingkungan pengembang, pipeline Docker multi-stage compose, serta skrip otomatisasi Linux untuk menjamin konsistensi antara lingkungan lokal dan server.",
     tags: ["Docker", "Linux", "PHP", "Git", "Bash"],
-    metrics: "Consistent containerized development stacks and automated tasks",
+    metrics: "Lingkungan pengembangan berbasis kontainer yang konsisten",
     imageAccent: "from-purple-500/20 via-purple-500/5 to-transparent",
     badgeColor: "purple",
     githubUrl: null,
     liveUrl: null,
     features: [
-      "Multi-container Docker configurations for PHP/MySQL/Nginx",
-      "Bash automation utilities for deployment & database backups",
-      "Git workflow standardizations and branch governance",
-      "Linux server hardening and log management setup"
+      "Konfigurasi multi-kontainer Docker untuk PHP, MySQL, dan Nginx",
+      "Otomasi skrip Bash untuk deployment dan pencadangan database",
+      "Standardisasi alur kerja Git dan tata kelola branch",
+      "Pengerasan dasar keamanan dan manajemen log server Linux"
     ]
   }
 ];
 
 export const experienceData = [
   {
-    period: "2024 — Present",
+    period: "2024 — Sekarang",
     role: "Full-Stack Developer",
-    organization: "Independent Development & Production Projects",
+    organization: "Pengembangan Proyek Independen & Produksi",
     location: "Indonesia",
-    type: "Production Engineering",
-    description: "Architecting full-stack web applications and custom systems using Laravel, React, and MySQL. Focusing on database integrity, clean API contracts, and performant user experiences across devices.",
+    type: "Rekayasa Perangkat Lunak",
+    description: "Merancang dan membangun aplikasi web secara menyeluruh menggunakan Laravel, React, dan MySQL. Berfokus pada keandalan database, kontrak API yang bersih, serta pengalaman pengguna yang lancar di semua ukuran layar.",
     skillsApplied: ["React", "Laravel", "Tailwind CSS", "MySQL", "GSAP"]
   },
   {
@@ -183,25 +182,25 @@ export const experienceData = [
     role: "Web Developer Intern (PKL)",
     organization: "PT Global Media Pratama Solusindo",
     location: "Indonesia",
-    type: "Workplace Experience",
-    description: "Conducted practical work (PKL) developing and maintaining enterprise web applications, including digital front-office guestbook systems (GLOSINDO), MySQL database schema operations, and client feature enhancements.",
+    type: "Pengalaman Kerja Industri",
+    description: "Melaksanakan Praktik Kerja Lapangan (PKL) dengan berkontribusi langsung pada pengembangan aplikasi web perusahaan, termasuk sistem buku tamu digital (GLOSINDO), pengelolaan skema database MySQL, serta perbaikan fitur klien.",
     skillsApplied: ["PHP", "Laravel", "MySQL", "JavaScript", "Git"]
   },
   {
-    period: "Foundations",
-    role: "Computer Science / Software Engineering",
-    organization: "Technical Vocational / Academic Education",
+    period: "Fondasi",
+    role: "Pendidikan Rekayasa Perangkat Lunak / Teknik Informatika",
+    organization: "Pendidikan Kejuruan / Akademik Teknik",
     location: "Indonesia",
-    type: "Formal Education",
-    description: "Completed rigorous foundational coursework in relational database design, object-oriented programming, modern web application development, algorithms, and software testing practices.",
-    skillsApplied: ["Data Structures", "OOP", "Database Normalization", "System Analysis"]
+    type: "Pendidikan Formal",
+    description: "Menempuh pembelajaran mendalam mengenai perancangan basis data relasional, pemrograman berorientasi objek (OOP), standar pengembangan web modern, algoritma struktur data, serta metodologi pengujian perangkat lunak.",
+    skillsApplied: ["Struktur Data", "OOP", "Normalisasi Database", "Analisis Sistem"]
   }
 ];
 
 export const contactData = {
-  title: "Have a project in mind?",
-  subtitle: "Let's build something useful.",
-  description: "Whether you need a full-stack web application, a database-backed management system, or a high-performance frontend interface, I'm open to discussing your engineering requirements.",
+  title: "Ada proyek atau ide yang ingin dibangun?",
+  subtitle: "Mari ciptakan sesuatu yang bermanfaat.",
+  description: "Baik Anda membutuhkan aplikasi web full-stack, sistem manajemen berbasis database, maupun antarmuka frontend berkinerja tinggi, saya terbuka untuk berdiskusi mengenai kebutuhan teknis Anda.",
   email: "adlimuhamad358@gmail.com",
   socials: [
     {

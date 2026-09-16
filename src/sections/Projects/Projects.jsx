@@ -204,13 +204,13 @@ export function Projects() {
       ref={containerRef}
       id="projects"
       className="relative py-20 sm:py-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-white/[0.06]"
-      aria-label="Selected Projects Showcase"
+      aria-label="Bagian Proyek Pilihan"
     >
       <SectionHeader
         number="03"
-        label="Featured Architecture"
-        title="Selected Projects"
-        description="Production web applications engineered with modern frontend interfaces, relational databases, and modular backend APIs."
+        label="Karya Pilihan"
+        title="Proyek Pilihan"
+        description="Aplikasi web produksi yang dibangun dengan antarmuka modern, basis data relasional, dan backend API yang modular."
       />
 
       <div className="space-y-12 sm:space-y-20">
@@ -284,7 +284,7 @@ export function Projects() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-4 py-2 bg-white text-black font-mono font-semibold text-xs uppercase tracking-wider rounded-sm hover:bg-[#00f0ff] transition-colors"
                       >
-                        <span>Live Preview</span>
+                        <span>Lihat Demo</span>
                         <ExternalLink className="w-3.5 h-3.5" />
                       </a>
                     )}
@@ -297,14 +297,14 @@ export function Projects() {
                         className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 text-white border border-white/10 font-mono text-xs uppercase tracking-wider rounded-sm hover:bg-white/10 transition-colors"
                       >
                         <GithubIcon className="w-3.5 h-3.5" />
-                        <span>Source Code</span>
+                        <span>Kode Sumber</span>
                       </a>
                     )}
 
                     {!hasLive && !hasGithub && (
                       <div className="flex items-center gap-2 font-mono text-[11px] text-neutral-500">
                         <span className="w-1.5 h-1.5 rounded-full bg-neutral-600" />
-                        <span>Proprietary / Enterprise Workspace Codebase</span>
+                        <span>Aplikasi Internal / Workspace Tertutup</span>
                       </div>
                     )}
                   </div>

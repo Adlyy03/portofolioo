@@ -82,23 +82,23 @@ export function About() {
   const pillars = [
     {
       icon: Layers,
-      title: 'Full-Stack Architecture',
-      description: 'End-to-end engineering from normalized database schemas to client-side state models.',
+      title: 'Arsitektur Full-Stack',
+      description: 'Rekayasa menyeluruh dari skema basis data relasional hingga manajemen state di sisi client.',
     },
     {
       icon: Cpu,
-      title: 'Backend Rigor',
-      description: 'Dependable business logic, secure authentication flows, and resilient RESTful API endpoints.',
+      title: 'Keandalan Backend',
+      description: 'Logika bisnis yang kokoh, alur autentikasi aman, serta integrasi RESTful API yang stabil.',
     },
     {
       icon: Zap,
-      title: 'Interface Precision',
-      description: 'Mobile-first responsiveness, sub-second micro-interactions, and accessible UI patterns.',
+      title: 'Presisi Antarmuka',
+      description: 'Responsif mobile-first, interaksi mikro cepat dan lancar, serta pola UI yang aksesibel.',
     },
     {
       icon: ShieldCheck,
-      title: 'Production Resilience',
-      description: 'Code designed for maintainability, predictable errors, and real-world operations.',
+      title: 'Kesiapan Produksi',
+      description: 'Kode bersih yang mudah dirawat, penanganan error terstruktur, dan siap di dunia nyata.',
     },
   ]
 
@@ -107,13 +107,13 @@ export function About() {
       ref={containerRef}
       id="about"
       className="relative py-20 sm:py-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-white/[0.06]"
-      aria-label="About Section"
+      aria-label="Bagian Tentang"
     >
       <SectionHeader
         number="01"
-        label="Engineering Philosophy"
-        title="About & Ethos"
-        description="Bridging systems architecture with polished, human-centric interfaces."
+        label="Filosofi Kerja"
+        title="Tentang & Prinsip"
+        description="Menjembatani keandalan arsitektur backend dengan antarmuka yang presisi dan ramah pengguna."
       />
 
       {/* Editorial Large Statement */}
@@ -123,7 +123,7 @@ export function About() {
       >
         <div className="absolute top-0 left-0 w-1 h-full bg-[#00f0ff]" />
         <span className="font-mono text-xs uppercase tracking-widest text-[#00f0ff] mb-3 block">
-          // Core Manifesto
+          // Prinsip Utama
         </span>
         <blockquote className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight tracking-tight">
           &ldquo;{personalData.statement}&rdquo;
@@ -145,7 +145,7 @@ export function About() {
         <div className="lg:col-span-5 bg-[#11131a] p-6 sm:p-8 rounded-sm border border-white/[0.08] flex flex-col gap-6">
           <div className="flex items-center justify-between border-b border-white/[0.08] pb-4">
             <span className="font-mono text-xs uppercase tracking-wider text-neutral-400">
-              ENGINEERING MATRIX
+              MATRIKS REKAYASA
             </span>
             <span className="font-mono text-xs text-[#00f0ff]">DEV.01</span>
           </div>
@@ -164,8 +164,8 @@ export function About() {
           </div>
 
           <div className="border-t border-white/[0.08] pt-4 font-mono text-xs text-neutral-400 flex items-center justify-between">
-            <span>Primary Focus</span>
-            <span className="text-white">Web Applications & Systems</span>
+            <span>Fokus Utama</span>
+            <span className="text-white">Aplikasi Web & Sistem Produksi</span>
           </div>
         </div>
       </div>

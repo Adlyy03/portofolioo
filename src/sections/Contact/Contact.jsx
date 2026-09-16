@@ -62,9 +62,9 @@ export function Contact() {
 
       <SectionHeader
         number="05"
-        label="Direct Transmission"
-        title="Start A Conversation"
-        description="Available for select engineering opportunities, full-stack web applications, and architectural discussions."
+        label="Saluran Komunikasi"
+        title="Mulai Percakapan"
+        description="Terbuka untuk diskusi kebutuhan teknis, peluang kerja sama proyek web, maupun rekayasa sistem full-stack."
       />
 
       <div className="my-10">
@@ -86,10 +86,10 @@ export function Contact() {
         <div className="mt-12 p-6 sm:p-10 rounded-sm bg-[#11131a] border border-white/[0.08] max-w-3xl">
           <div className="flex items-center justify-between border-b border-white/[0.06] pb-4 mb-6">
             <span className="font-mono text-xs text-neutral-400 uppercase tracking-widest">
-              COMMUNICATION CHANNEL
+              SALURAN KOMUNIKASI
             </span>
             <Badge variant="emerald" dot={true}>
-              Active Inbox
+              Kotak Masuk Aktif
             </Badge>
           </div>
 
@@ -109,17 +109,17 @@ export function Contact() {
                 type="button"
                 onClick={copyEmail}
                 className="px-3.5 py-2 text-xs font-mono tracking-wider uppercase rounded bg-white/[0.05] hover:bg-white/10 text-neutral-300 hover:text-white border border-white/10 transition-colors flex items-center gap-1.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#00f0ff]"
-                aria-label="Copy email address"
+                aria-label="Salin alamat email"
               >
                 {copied ? (
                   <>
                     <Check className="w-3.5 h-3.5 text-emerald-400" />
-                    <span className="text-emerald-400">COPIED</span>
+                    <span className="text-emerald-400">TERSALIN</span>
                   </>
                 ) : (
                   <>
                     <Copy className="w-3.5 h-3.5" />
-                    <span>COPY</span>
+                    <span>SALIN</span>
                   </>
                 )}
               </button>
@@ -128,7 +128,7 @@ export function Contact() {
                 href={`mailto:${contactData.email}`}
                 className="px-4 py-2 text-xs font-mono font-bold tracking-wider uppercase rounded bg-[#00f0ff] hover:bg-[#00f0ff]/90 text-black transition-colors flex items-center gap-1.5 shadow-[0_0_12px_rgba(0,240,255,0.3)] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
-                <span>COMPOSE</span>
+                <span>KIRIM EMAIL</span>
                 <Send className="w-3.5 h-3.5" />
               </a>
             </div>
@@ -157,11 +157,11 @@ export function Contact() {
                   href={personalData.cvUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  download="CV-Muhammad-Adli-Fajriyansyah.pdf"
+                  download="CV-Muhamad-Adli-Fajriyansyah.pdf"
                   className="inline-flex items-center gap-2 px-4 py-2.5 rounded-sm bg-white/[0.04] hover:bg-[#00f0ff]/10 border border-white/10 hover:border-[#00f0ff]/40 text-white hover:text-[#00f0ff] font-mono text-xs tracking-wider transition-colors"
                 >
                   <FileText className="w-4 h-4 text-[#00f0ff]" />
-                  <span>Download CV (PDF)</span>
+                  <span>Unduh CV (PDF)</span>
                   <ArrowUpRight className="w-3 h-3 text-neutral-400" />
                 </a>
               </Magnetic>
@@ -172,9 +172,9 @@ export function Contact() {
           <div className="mt-8 pt-4 border-t border-white/[0.06] flex flex-wrap items-center justify-between gap-4 font-mono text-[11px] text-neutral-400">
             <span className="flex items-center gap-1.5">
               <Clock className="w-3 h-3 text-[#00f0ff]" />
-              Timezone: Indonesia [{personalData.timezone}]
+              Zona Waktu: Indonesia [{personalData.timezone}]
             </span>
-            <span>Typical Response: Within 24-48 Hours</span>
+            <span>Estimasi Respon: 24-48 Jam</span>
           </div>
         </div>
       </div>

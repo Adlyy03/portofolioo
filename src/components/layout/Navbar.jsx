@@ -125,7 +125,7 @@ export function Navbar({ ready }) {
           {/* Availability Status Tag (Desktop & Tablet) */}
           <div className="hidden md:flex items-center gap-2 px-3 py-1 rounded-full bg-white/[0.03] border border-white/[0.06] text-xs font-mono text-neutral-400">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_8px_rgba(52,211,153,0.7)]" />
-            <span className="text-neutral-300">Available for projects</span>
+            <span className="text-neutral-300">Siap menerima proyek</span>
           </div>
 
           {/* Desktop Navigation Links */}
@@ -157,9 +157,9 @@ export function Navbar({ ready }) {
                 href={personalData.cvUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                download="CV-Muhammad-Adli-Fajriyansyah.pdf"
+                download="CV-Muhamad-Adli-Fajriyansyah.pdf"
                 className="px-3 py-1.5 text-xs font-mono tracking-wider uppercase bg-white/[0.05] text-neutral-200 hover:text-[#00f0ff] hover:bg-[#00f0ff]/10 border border-white/10 hover:border-[#00f0ff]/40 rounded-sm transition-colors flex items-center gap-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#00f0ff]"
-                aria-label="Download CV"
+                aria-label="Unduh CV"
               >
                 <span>CV</span>
                 <ArrowUpRight className="w-3.5 h-3.5 text-neutral-400" />
@@ -172,7 +172,7 @@ export function Navbar({ ready }) {
               onClick={(e) => handleNavClick(e, '#contact')}
               className="ml-2 px-4 py-1.5 text-xs font-mono tracking-wider uppercase bg-white text-black font-semibold rounded-sm hover:bg-[#00f0ff] transition-colors flex items-center gap-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#00f0ff]"
             >
-              Contact
+              Kontak
               <ArrowUpRight className="w-3.5 h-3.5" />
             </a>
           </nav>
@@ -201,7 +201,7 @@ export function Navbar({ ready }) {
         >
           {/* Menu System Header */}
           <div className="font-mono text-[11px] text-[#00f0ff] uppercase tracking-widest border-b border-white/10 pb-3">
-            // NAVIGATION DIRECTORY
+            // DAFTAR MENU
           </div>
 
           {/* Navigation Links */}
@@ -235,10 +235,10 @@ export function Navbar({ ready }) {
                 href={personalData.cvUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                download="CV-Muhammad-Adli-Fajriyansyah.pdf"
+                download="CV-Muhamad-Adli-Fajriyansyah.pdf"
                 className="w-full flex items-center justify-center gap-2 py-3 px-4 bg-white/5 border border-white/15 text-white font-mono text-xs uppercase tracking-wider rounded-sm hover:bg-[#00f0ff]/10 hover:border-[#00f0ff]/40 hover:text-[#00f0ff] transition-all active:scale-[0.98]"
               >
-                <span>Download CV (PDF)</span>
+                <span>Unduh CV (PDF)</span>
                 <ArrowUpRight className="w-4 h-4 text-[#00f0ff]" />
               </a>
             </div>
@@ -250,12 +250,12 @@ export function Navbar({ ready }) {
               <span className="text-neutral-400">STATUS:</span>
               <span className="text-emerald-400 flex items-center gap-1.5 font-medium">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                Available for Work
+                Siap Menerima Proyek
               </span>
             </div>
             <div className="flex items-center justify-between text-[11px]">
-              <span className="text-neutral-400">LOCATION:</span>
-              <span className="text-neutral-300">Indonesia (UTC+07)</span>
+              <span className="text-neutral-400">LOKASI:</span>
+              <span className="text-neutral-300">Indonesia [WIB]</span>
             </div>
           </div>
         </div>

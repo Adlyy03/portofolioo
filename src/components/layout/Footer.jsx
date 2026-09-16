@@ -26,7 +26,7 @@ export function Footer() {
               <span className="w-1.5 h-1.5 rounded-full bg-[#00f0ff]" />
             </div>
             <p className="text-neutral-400 text-xs font-mono max-w-sm">
-              Full-Stack Developer & Software Engineer. Building resilient digital products.
+              Full-Stack Developer & Software Engineer. Membangun produk digital yang andal dan fungsional.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-neutral-400 hover:text-white transition-colors"
-                aria-label="GitHub Profile"
+                aria-label="Profil GitHub"
               >
                 <GithubIcon className="w-4 h-4" />
                 <span className="hidden sm:inline">GitHub</span>
@@ -50,9 +50,9 @@ export function Footer() {
                 type="button"
                 onClick={handleBackToTop}
                 className="group inline-flex items-center gap-2 px-3.5 py-2 rounded-sm bg-white/[0.04] border border-white/10 hover:border-[#00f0ff]/40 text-white text-xs transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-[#00f0ff]"
-                aria-label="Back to top of page"
+                aria-label="Kembali ke atas halaman"
               >
-                <span>TOP</span>
+                <span>ATAS</span>
                 <ArrowUp className="w-3.5 h-3.5 group-hover:-translate-y-0.5 transition-transform text-[#00f0ff]" />
               </button>
             </Magnetic>
@@ -62,7 +62,7 @@ export function Footer() {
         {/* Bottom copyright & timestamp */}
         <div className="pt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-[11px] text-neutral-400">
           <div>
-            © {currentYear} {personalData.name}. All rights reserved.
+            © {currentYear} {personalData.name}. Hak cipta dilindungi.
           </div>
           <div className="flex items-center gap-3">
             <span>INDEX // PROD_BUILD</span>
